@@ -6,6 +6,8 @@ body {
 
 h1, h2 {
     color: #007bff;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .navbar-brand {
@@ -89,4 +91,15 @@ p, ul {
     .skills-card {
         width: 80%;
     }
+}
+
+.list-group-item {
+    font-size: 1.1em;
+    padding: 15px;
+    background-color: #f8f9fa; 
+    color: #333; 
+}
+
+.list-group-item i {
+    margin-right: 10px; 
 }
