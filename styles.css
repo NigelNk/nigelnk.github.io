@@ -1,0 +1,61 @@
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('code.jpg') center/cover no-repeat;
+    color: white;
+    padding: 150px 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.about-me, .skills, .projects, .contact {
+    padding: 60px 0;
+}
+.img-fluid{
+    border-radius: 50%;
+    height: 100%;
+    width: 50%;
+
+}
+
+.icon-box {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    
+}
+
+.icon-box:hover {
+    background-color: #495057;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
